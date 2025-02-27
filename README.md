@@ -21,7 +21,7 @@ GroqCloud is a cloud-based inference platform designed to deliver ultra-fast AI 
 ### Implementation
 1. **Signup & API Key Generation** 🔑  
    - Visit [GroqCloud](https://groq.com/) and create an account.  
-   - Free users get **1000 tokens/month**.  
+   - Free users get 1000 requests/day and 100,000 tokens/day.  
    - Generate API Key from dashboard under Free Tier.  
 
 2. **Install Dependencies**  
