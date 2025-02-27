@@ -1,9 +1,9 @@
 # GroqCloud Integration 🎐
 
-### What is GroqCloud?
+### What is GroqCloud?🧐
 GroqCloud is a cloud-based inference platform designed to deliver ultra-fast AI model inference with low latency and high performance. It empowers developers to run LLMs (Large Language Models) with blazing-fast speed, making AI applications smoother and scalable. GroqCloud operates on Groq LPU (Language Processing Unit), a specially designed hardware chip that enables real-time AI responses without batching.
 
-#### What is Groq LPU?
+#### What is Groq LPU?🤔
 Groq LPU (Language Processing Unit) is a hardware chip specially designed for AI model inference at ultra-fast speeds. It operates as the core engine behind GroqCloud, providing streaming processing instead of traditional batch processing, which allows the platform to deliver real-time AI responses.
 ##### Examples of Groq LPU Usage:
 - Chatbot conversation with instant replies
