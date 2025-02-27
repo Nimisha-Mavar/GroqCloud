@@ -42,5 +42,12 @@ payload = {
 }
 
 response = requests.post(url, headers=headers, json=payload)
-print(response.json()) ```
+print(response.json())
+```
+4. **Output Example**
+```python
+{
+   "output": "GroqCloud helps with blazing fast inference for AI models!"
+}
+```
 
