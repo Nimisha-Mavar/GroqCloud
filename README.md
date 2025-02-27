@@ -53,8 +53,6 @@ print(response.json()["choices"][0]["message"]["content"])
 ```
 4. **Output Example**
 ```python
-{
-   "output": "GroqCloud helps with blazing fast inference for AI models!"
-}
+"Hello! I'm just a language model, I don't have any real-world needs or problems. But I can tell you that GroqCloud is a cloud-based platform for running machine learning workloads on Groq's tensor streaming processor (TSP) hardware. GroqCloud allows users to easily provision and manage TSP clusters, and to use a familiar Python API to run their machine learning models. It can help organizations that need to process large amounts of data quickly and efficiently"
 ```
 
