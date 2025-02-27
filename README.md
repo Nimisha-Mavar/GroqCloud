@@ -32,17 +32,24 @@ GroqCloud is a cloud-based inference platform designed to deliver ultra-fast AI 
 ```python
 import requests
 
-API_KEY = 'your_api_key_here'
-url = 'https://api.groqcloud.com/v1/inference'
-headers = {'Authorization': f'Bearer {API_KEY}', 'Content-Type': 'application/json'}
+API_KEY = 'your_api_key'
+url = 'https://api.groq.com/openai/v1/chat/completions'
+headers = {
+    'Authorization': f'Bearer {API_KEY}',
+    'Content-Type': 'application/json'
+}
 
 payload = {
-    'model': 'llama2-7b',
-    'input': 'Hello, how can GroqCloud help you today?'
+  "model": "mixtral-8x7b-32768",  # Model naam change kari shake
+  "messages": [
+    {"role": "user", "content": "Hello Kanuda, how can GroqCloud help you today?"}
+  ],
+  "temperature": 0.7,
+  "max_tokens": 100
 }
 
 response = requests.post(url, headers=headers, json=payload)
-print(response.json())
+print(response.json()["choices"][0]["message"]["content"])
 ```
 4. **Output Example**
 ```python
